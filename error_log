@@ -1,0 +1,87 @@
+[08-May-2021 14:58:53 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home4/oxyge6o8/public_html/application/views/home/form_2.php on line 93
+[07-Jun-2021 13:41:31 UTC] PHP Fatal error:  Cannot redeclare Home::service() in /home4/oxyge6o8/public_html/application/controllers/Home.php on line 71
+[07-Jun-2021 13:41:44 UTC] PHP Fatal error:  Cannot redeclare Home::service() in /home4/oxyge6o8/public_html/application/controllers/Home.php on line 71
+[07-Jun-2021 13:42:06 UTC] PHP Fatal error:  Cannot redeclare Home::service() in /home4/oxyge6o8/public_html/application/controllers/Home.php on line 71
+[10-Jun-2021 16:11:55 UTC] PHP Fatal error:  Call to undefined function register() in /home/ousdang3vkjs/public_html/sc_nc/application/controllers/Admin_Control.php on line 60
+[11-Jun-2021 13:37:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ousdang3vkjs/public_html/sc_nc/application/controllers/Admin_Control.php on line 19
+[11-Jun-2021 13:37:58 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ousdang3vkjs/public_html/sc_nc/application/controllers/Admin_Control.php on line 19
+[13-Jun-2021 13:24:12 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ousdang3vkjs/public_html/sc_nc/application/controllers/Admin_Control.php on line 119
+[13-Jun-2021 13:24:39 UTC] PHP Fatal error:  Cannot use isset() on the result of a function call (you can use "null !== func()" instead) in /home/ousdang3vkjs/public_html/sc_nc/application/controllers/Admin_Control.php on line 160
+[13-Jun-2021 14:50:57 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ousdang3vkjs/public_html/sc_nc/application/views/Admin_Panel/pages/user_profile.php on line 243
+[23-Jun-2021 17:07:21 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ousdang3vkjs/public_html/sc_nc/application/views/Admin_Panel/pages/order_list.php on line 105
+[23-Jun-2021 17:07:52 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ousdang3vkjs/public_html/sc_nc/application/views/Admin_Panel/pages/order_list.php on line 105
+[23-Jun-2021 17:07:57 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ousdang3vkjs/public_html/sc_nc/application/views/Admin_Panel/pages/order_list.php on line 105
+[23-Jun-2021 17:11:46 Asia/Kolkata] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ousdang3vkjs/public_html/sc_nc/application/views/Admin_Panel/pages/order_list.php on line 105
+[23-Jun-2021 11:53:29 UTC] PHP Fatal error:  Cannot redeclare Admin_Control::order_list() in /home/ousdang3vkjs/public_html/sc_nc/application/controllers/Admin_Control.php on line 373
+[29-Jun-2021 12:42:46 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::affected_row() in /home/ousdang3vkjs/public_html/social_seed/application/controllers/Admin_Control.php on line 52
+[29-Jun-2021 12:43:44 UTC] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::affected_row() in /home/ousdang3vkjs/public_html/social_seed/application/controllers/Admin_Control.php on line 81
+[29-Jun-2021 14:40:00 UTC] PHP Parse error:  syntax error, unexpected 'l' (T_STRING), expecting ';' or '{' in /home/ousdang3vkjs/public_html/social_seed/application/controllers/Admin_Control.php on line 14
+[16-Jul-2021 14:43:06 UTC] PHP Fatal error:  Cannot redeclare Home::view_product() in /home4/oxyge6o8/public_html/new_homesolutions/application/controllers/Home.php on line 23
+[16-Jul-2021 14:43:18 UTC] PHP Fatal error:  Cannot redeclare Home::view_product() in /home4/oxyge6o8/public_html/new_homesolutions/application/controllers/Home.php on line 23
+[16-Jul-2021 14:43:54 UTC] PHP Fatal error:  Cannot redeclare Home::view_product() in /home4/oxyge6o8/public_html/new_homesolutions/application/controllers/Home.php on line 23
+[25-Aug-2021 16:25:07 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home4/oxyge6o8/public_html/any_project/application/views/Admin_Panel/pages/Lead_distributor/add_lead.php on line 21
+[25-Aug-2021 16:25:10 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home4/oxyge6o8/public_html/any_project/application/views/Admin_Panel/pages/Lead_distributor/add_lead.php on line 21
+[05-Sep-2021 06:42:00 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[06-Sep-2021 14:40:10 UTC] PHP Fatal error:  Cannot redeclare Admin_Control::mobile_check() in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Admin_Control.php on line 917
+[06-Sep-2021 14:40:13 UTC] PHP Fatal error:  Cannot redeclare Admin_Control::mobile_check() in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Admin_Control.php on line 917
+[06-Sep-2021 14:40:36 UTC] PHP Fatal error:  Cannot redeclare Admin_Control::mobile_check() in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Admin_Control.php on line 917
+[06-Sep-2021 15:34:14 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/pages/Lead_distributor/domestic_lead.php on line 79
+[06-Sep-2021 15:34:19 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/pages/Lead_distributor/domestic_lead.php on line 79
+[06-Sep-2021 15:35:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/pages/Lead_distributor/domestic_lead.php on line 79
+[06-Sep-2021 16:44:37 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[07-Sep-2021 11:18:50 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[14-Sep-2021 14:11:59 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Admin_Control.php on line 1315
+[14-Sep-2021 15:37:54 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Admin_Control.php on line 1360
+[15-Sep-2021 06:22:40 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[15-Sep-2021 06:22:55 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[15-Sep-2021 17:40:29 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/pages/Lead_distributor/lead_remark.php on line 49
+[15-Sep-2021 17:40:31 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/pages/Lead_distributor/lead_remark.php on line 49
+[17-Sep-2021 05:19:22 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[17-Sep-2021 05:33:17 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[17-Sep-2021 05:33:42 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[17-Sep-2021 05:33:44 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[17-Sep-2021 05:37:00 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[17-Sep-2021 07:01:25 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[17-Sep-2021 15:25:31 UTC] PHP Parse error:  syntax error, unexpected '">');' (T_CONSTANT_ENCAPSED_STRING) in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/templates/footer_script.php on line 450
+[17-Sep-2021 15:25:33 UTC] PHP Parse error:  syntax error, unexpected '">');' (T_CONSTANT_ENCAPSED_STRING) in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/templates/footer_script.php on line 450
+[18-Sep-2021 04:29:21 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[19-Sep-2021 17:16:39 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[19-Sep-2021 17:24:42 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[20-Sep-2021 04:37:51 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[20-Sep-2021 06:24:21 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[20-Sep-2021 08:32:18 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[20-Sep-2021 08:33:55 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[20-Sep-2021 08:34:00 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[20-Sep-2021 08:34:01 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[20-Sep-2021 08:34:50 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[20-Sep-2021 11:24:27 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[20-Sep-2021 15:06:34 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/pages/Purchase/assigned_lead.php on line 80
+[20-Sep-2021 15:06:36 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/pages/Purchase/assigned_lead.php on line 80
+[21-Sep-2021 04:18:07 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[21-Sep-2021 04:18:21 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[21-Sep-2021 05:59:29 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[21-Sep-2021 06:29:19 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[21-Sep-2021 14:08:19 UTC] PHP Fatal error:  Call to a member function row() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/pages/Retro/view_rate_quotation.php on line 32
+[21-Sep-2021 14:08:51 UTC] PHP Fatal error:  Call to a member function row() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/pages/Retro/view_rate_quotation.php on line 32
+[21-Sep-2021 14:09:09 UTC] PHP Fatal error:  Call to a member function row() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/pages/Retro/view_rate_quotation.php on line 32
+[21-Sep-2021 14:09:54 UTC] PHP Fatal error:  Call to a member function row() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/pages/Retro/view_rate_quotation.php on line 32
+[21-Sep-2021 15:56:36 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/templates/top_nav.php on line 85
+[21-Sep-2021 16:02:05 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/templates/top_nav.php on line 90
+[21-Sep-2021 17:25:26 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/views/Admin_Panel/templates/top_nav.php on line 135
+[22-Sep-2021 04:12:19 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[24-Sep-2021 04:31:37 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[24-Sep-2021 04:31:49 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[24-Sep-2021 04:31:55 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[24-Sep-2021 05:17:31 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[24-Sep-2021 12:13:03 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[27-Sep-2021 04:37:32 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[29-Sep-2021 06:31:39 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Admin_Control.php on line 1594
+[29-Sep-2021 06:32:19 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Admin_Control.php on line 1594
+[29-Sep-2021 06:32:19 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Admin_Control.php on line 1594
+[01-Oct-2021 04:22:45 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[01-Oct-2021 04:22:50 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[01-Oct-2021 05:43:29 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[04-Oct-2021 03:54:09 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[04-Oct-2021 04:02:14 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[04-Oct-2021 06:56:15 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
+[08-Oct-2021 02:19:16 UTC] PHP Fatal error:  Call to a member function result() on boolean in /home/d6j9z95vbp09/public_html/crm.lexbax.com/application/controllers/Home.php on line 35
