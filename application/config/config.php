@@ -24,7 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'https://receipt.32watts.com/';
+#$config['base_url'] = 'https://receipt.32watts.com/';
+$config['base_url'] = 'http://localhost/Payment_Receipts/';
 
 /*
 |--------------------------------------------------------------------------
