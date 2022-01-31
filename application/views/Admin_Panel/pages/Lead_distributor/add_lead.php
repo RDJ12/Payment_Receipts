@@ -25,7 +25,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="input__label">New/Existing</label>
-                                <select id="new_existing" name="new_existing" class="form-control input-style"  required  >
+                                <select id="new_existing" onchange="checkValue(this)" name="new_existing" class="form-control input-style"  required  >
                                     <option value="">--select--</option>
                                     <option <?php if(isset($edit_data) && !empty($edit_data)){ ?> <?=(($edit_data->new_existing=='New')?'selected':'');  } ?> value="New">New</option>
                                     <option <?php if(isset($edit_data) && !empty($edit_data)){ ?><?=(($edit_data->new_existing=='Existing')?'selected':''); }?> value="Existing">Existing</option>
@@ -34,14 +34,19 @@
                          <div class="form-group" id="case_div">
                             <label class="input__label">Case Id</label>
                             <input  name="case_id" type="number" class="form-control input-style" required
-                               placeholder="Case Id"  value="<?=(($edit_data)?$edit_data->case_id:'');?>"  <?php if(!empty($edit_data) && $_SESSION['user_type']==3){ echo "readonly ";} ?>>
+                               placeholder="Case Id" id="case_id"  value="<?=(($edit_data)?$edit_data->case_id:'');?>"  <?php if(!empty($edit_data) && $_SESSION['user_type']==3){ echo "readonly ";} ?>>
                            </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                             <label class="input__label">Patient Name</label>
-                            <input  name="buyer_name" type="text" class="form-control input-style" 
+                            <input  name="buyer_name" type="text" class="form-control input-style" required
                                 placeholder="Name"  required value="<?=(($edit_data)?$edit_data->buyer_name:'');?>"  <?php if(!empty($edit_data) && $_SESSION['user_type']==3){ echo "readonly ";} ?>>
+                           </div> 
+                           <div class="form-group">
+                            <label class="input__label">Doctor Name</label>
+                            <input  name="doctor_name" type="text" class="form-control input-style" required
+                                placeholder="Doctor Name" required value="<?=(($edit_data)?$edit_data->doctor_name:'');?>"  <?php if(!empty($edit_data) && $_SESSION['user_type']==3){ echo "readonly ";} ?>>
                            </div>    
                         </div>
                     </div>
@@ -186,3 +191,15 @@
   <!-- //content -->
 </div>
 <!-- main content end-->
+
+<script>
+  const checkValue = (element) =>{
+      let caseId = document.getElementById("case_id");
+      if(element.value.trim()=='New'){
+        $(caseId).removeAttr("required");
+      }
+      else{
+        $(caseId).attr("required");
+      }
+  }
+</script>

@@ -57,14 +57,14 @@
             <div class="col-sm-6 pr-sm-2 statistics-grid">
               <div class="card card_border p-4 corp">
                 <i class="lnr lnr-users text-white"> </i>
-                <h3 class="text-white number"><?=get_column('count(id)','users',["user_type !="=>1],'count(id)');?></h3>
+                <h3 class="text-white number"><?=get_column('count(id)','users',["user_type ="=>1],'count(id)');?></h3>
                 <p class="stat-text text-white">Total Sales Team Member</p>
               </div>
             </div>
             <div class="col-sm-6 pl-sm-2 statistics-grid">
               <div class="card card_border sun p-4">
                 <i class="lnr lnr-eye text-white"> </i>
-                <h3 class="number text-white"><?=get_column('count(id)','leads',["id !="=>0],'count(id)');?></h3>
+                <h3 class="number text-white"><?=get_column('count(id)','leads',["account_verification !="=>0],'count(id)');?></h3>
                 <p class="stat-text text-white">Total Payment Received</p>
               </div>
             </div>
