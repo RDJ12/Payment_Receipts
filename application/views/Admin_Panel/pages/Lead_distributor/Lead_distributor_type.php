@@ -17,7 +17,7 @@
       <div class="row">
         <div class="col-lg-12 mb-4">
           <div class="card card_border p-4">
-            <h3 class="card__title position-absolute">Lead Distribtor Info</h3>
+            <h3 class="card__title position-absolute">Lead Distributor Info</h3>
             <div class="table-responsive">
               <table id="example" class="table table-bordered mt-5 ldl_table">
                 <thead>
@@ -30,7 +30,9 @@
                            <!--<th>Offer Letter</th>-->
                            <!--<th>Agreement</th>-->
                            <th>Status</th>
+                          <?php if($_SESSION['user_type']==1){ ?>
                            <th>Action</th>
+                           <?php }?>
                   </tr>
                 </thead>
                 <tbody>
@@ -48,8 +50,10 @@
                              <!--<td class="text-center"><a class="view_btn" href="<?=base_url('/assets/offer_letter/'.$rv->offer_letter);?>" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i> view</a></td>-->
                              <!--<td class="text-center"><a class="view_btn" href="<?=base_url('/assets/agreement/'.$rv->agreement);?>" target="_blank"><i class="fa fa-eye" aria-hidden="true"></i> view</a></td>-->
                              <td class="text-center status_btn"><?=$status[$rv->status];?></td>
+                             <?php if($_SESSION['user_type']==1) {?>
                              <td class="text-center"><a class="icon_size" href="<?=base_url('/Admin_Control/add_lead_distributor/'.$rv->id);?>"><i class="fa fa-pencil"></i></a></td>
-                         </tr>
+                         <?php }?>
+                            </tr>
                        <?php } ?>
                  
                 </tbody>

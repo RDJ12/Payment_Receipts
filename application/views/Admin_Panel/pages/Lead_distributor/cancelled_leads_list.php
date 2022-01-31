@@ -54,11 +54,15 @@
                              <td><?= $rv->fname; ?></td>
                              <td><?= $rv->created_on; ?></td>
                              <td>    
+                             <?php if($_SESSION['user_type']==1) {?> 
                                 <a class="cmn icon_size" href="<?=base_url('Admin_Control/add_lead/'.$rv->id);?>"><i class="fa fa-pencil"></i></a>
+                                <?php }?>  
                                 <a target="_blank" class="cmn icon_size" href="<?=base_url('Admin_Control/view_lead/'.$rv->id);?>"><i class="fa fa-eye"></i></a>
                                 <a class="cmn icon_size" href="<?=base_url('Admin_Control/invoice/'.$rv->id);?>"><i class="fa fa-file-pdf-o"></i></a>
-                                <a onclick="return confirm('Do You Want To Activate ?')" title="Cancel" class="cmn icon_size" href="<?=base_url('Admin_Control/active/'.$rv->id);?>"><i class="fa fa-check"></i></a>
-                             </td>
+                                <?php if($_SESSION['user_type']==1 || $_SESSION['user_type']==2) {?> 
+                                <a onclick="return confirm('Do You Want To Activate ?')" title="Reactivate" class="cmn icon_size" href="<?=base_url('Admin_Control/active/'.$rv->id);?>"><i class="fa fa-check"></i></a>
+                                <?php }?> 
+                              </td>
                          </tr>
                        <?php } ?>
                  

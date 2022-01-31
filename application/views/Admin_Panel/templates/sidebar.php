@@ -3,7 +3,7 @@
   
 
   <!-- sidebar menu start -->
-  <div class="sidebar-menu sticky-sidebar-menu" style="display:<?php if($_SESSION['user_type']==3 || $this->uri->segment(2)=='view_lead'){echo"none";} ?>">
+  <div class="sidebar-menu sticky-sidebar-menu">
 
     <!-- logo start -->
     <div class="logo">
@@ -28,25 +28,21 @@
 
       <!-- sidebar nav start -->
       <ul class="nav nav-pills nav-stacked custom-nav">
-        <li class="active"><a href="<?=base_url('/admin');?>"><img src="<?=base_url();?>/img/dashboard.png"> <span> Dashboard</span></a>
+      <?php  if($_SESSION['user_type']==1 || $_SESSION['user_type']==2){ ?>  
+      <li class="active"><a href="<?=base_url('/admin');?>"><img src="<?=base_url();?>/img/dashboard.png"> <span> Dashboard</span></a>
         </li>
-         
+      <?php }?>
          <?php  if($_SESSION['user_type']==1){ ?>
         <li><a href="<?=base_url('Admin_Control/user_type');?>"><img src="<?=base_url();?>/img/user.png"> <span>User Type </span></a></li> 
-        
-         <li><a href="<?=base_url('Admin_Control/add_lead_distributor');?>"><img src="<?=base_url();?>/img/add-dist.png"> <span>Add Sales Team Memeber</span></a>
+         <li><a href="<?=base_url('Admin_Control/add_lead_distributor');?>"><img src="<?=base_url();?>/img/add-dist.png"> <span>Add Sales Memeber</span></a>
          </li>
-         
          <li><a href="<?=base_url('Admin_Control/lead_distributor_list');?>"><img src="<?=base_url();?>/img/list.png"> <span>Sales Team Detail</span></a>
          </li>
-         
-        
-         
-        
-        
-         
-         
-         <?php } ?>
+         <li><a href="<?=base_url('Admin_Control/leads_list');?>"><i class="fa fa-table"></i> <span>All Payment Receipt </span></a></li> 
+        <li><a href="<?=base_url('Admin_Control/cancelled_leads_list');?>"><i class="fa fa-table"></i> <span>All Cancelled Receipt </span></a></li> 
+        <li><a href="<?=base_url('Admin_Control/add_lead');?>"><img src="<?=base_url();?>/img/list.png"> <span>Add Data</span></a>
+         </li> 
+        <?php } ?>
          
          
          <?php  if($_SESSION['user_type']==2){ ?>
@@ -59,11 +55,14 @@
          </li>
          <?php } ?>
          
-         <?php  if($_SESSION['user_type']==1  ){ ?>
-        <li><a href="<?=base_url('Admin_Control/leads_list');?>"><i class="fa fa-table"></i> <span>All Payment Receipt </span></a></li> 
+       
+         <?php  if($_SESSION['user_type']==3){ ?>
+          <li><a href="<?=base_url('Admin_Control/add_lead');?>"><img src="<?=base_url();?>/img/list.png"> <span>Add Data</span></a>
+         </li>  
+           <li><a href="<?=base_url('Admin_Control/leads_list');?>"><i class="fa fa-table"></i> <span>All Payment Receipt </span></a></li> 
         <li><a href="<?=base_url('Admin_Control/cancelled_leads_list');?>"><i class="fa fa-table"></i> <span>All Cancelled Receipt </span></a></li> 
-         <?php } ?>
          
+         <?php } ?>
         
          
         

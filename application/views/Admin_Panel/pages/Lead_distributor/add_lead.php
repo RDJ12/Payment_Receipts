@@ -1,7 +1,7 @@
 
 
   <!-- main content start -->
-<div class="main-content mform" style="<?php if($_SESSION['user_type']==3){echo"margin-left:0px!important;";} ?>">
+<div class="main-content mform">
 
   <!-- content -->
   <div class="container-fluid content-top-gap">
@@ -33,7 +33,7 @@
                          </div>
                          <div class="form-group" id="case_div">
                             <label class="input__label">Case Id</label>
-                            <input  name="case_id" type="number" class="form-control input-style" 
+                            <input  name="case_id" type="number" class="form-control input-style" required
                                placeholder="Case Id"  value="<?=(($edit_data)?$edit_data->case_id:'');?>"  <?php if(!empty($edit_data) && $_SESSION['user_type']==3){ echo "readonly ";} ?>>
                            </div>
                         </div>

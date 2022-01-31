@@ -1,6 +1,6 @@
 
   <!-- main content start -->
-<div class="main-content" style="<?php if($_SESSION['user_type']==3){echo"margin-left:0px!important;";} ?>">
+<div class="main-content">
 
   <!-- content -->
   <div class="container-fluid content-top-gap">
@@ -126,18 +126,19 @@
 </div>
                                 <?php } ?>
                              </td>
-                             <td>    
+                             <td>   
+                             <?php if($_SESSION['user_type']==1) {?> 
                                 <a class="cmn icon_size" href="<?=base_url('Admin_Control/add_lead/'.$rv->id);?>"><i class="fa fa-pencil"></i></a>
+                               <?php }?>
                                 <a target="_blank" class="cmn icon_size" href="<?=base_url('Admin_Control/view_lead/'.$rv->id);?>"><i class="fa fa-eye"></i></a>
                                 <a class="cmn icon_size" href="<?=base_url('Admin_Control/invoice/'.$rv->id);?>"><i class="fa fa-file-pdf-o"></i></a>
+                                <?php if($_SESSION['user_type']==1 || $_SESSION['user_type']==2) {?> 
                                 <a onclick="return confirm('Do You Want To Cancel ?')" title="Cancel" class="cmn icon_size" href="<?=base_url('Admin_Control/cancel/'.$rv->id);?>"><i class="fa fa-ban"></i></a>
-                                
                                 <select id="set_v<?=$rv->id;?>" onchange="set_verification(<?= $rv->id; ?>)">
                                     <option <?=(($rv->account_verification==0)?'selected':'');?> value="0">Pending</option>
                                     <option <?=(($rv->account_verification==1)?'selected':'');?> value="1">Received</option>
-                                    
                                 </select>
-                                
+                                <?php } ?>
                                 
                              </td>
                              
