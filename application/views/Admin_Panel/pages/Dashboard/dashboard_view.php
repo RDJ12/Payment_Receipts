@@ -58,7 +58,7 @@
               <div class="card card_border p-4 corp">
                 <i class="lnr lnr-users text-white"> </i>
                 <h3 class="text-white number"><?=get_column('count(id)','users',["user_type ="=>3],'count(id)');?></h3>
-                <p class="stat-text text-white">Total Sales Team Member</p>
+                <p class="stat-text text-white">Total Sales Team Members</p>
               </div>
             </div>
             <div class="col-sm-6 pl-sm-2 statistics-grid">
