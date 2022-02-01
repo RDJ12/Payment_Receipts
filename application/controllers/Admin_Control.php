@@ -1176,6 +1176,7 @@ function add_lead()
             $rr['new_existing']=$_POST['new_existing'];
             $rr['additonal_remarks']=$_POST['additonal_remarks'];
             $rr['payment_recieved_for']=$_POST['payment_recieved_for'];
+            $rr['doctor_name']=$_POST['doctor_name'];
             
             if($_POST['id']!='')
             {   
