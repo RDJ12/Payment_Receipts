@@ -786,7 +786,7 @@ function add_lead_distributor()
             }
             else
             {   
-                $rr['user_type']=2;
+                $rr['user_type']=3;
                 $last_emp_id=0;
                 $last_emp_id=$this->db->select('emp_id')->where('user_type',2)->order_by('id','desc')->get('users')->row();
                 if($last_emp_id->emp_id!='')
@@ -1674,6 +1674,7 @@ function mark_cheked()
    {
         $id=$_POST['id'];
         $new_st=$_POST['new_st'];
+        $this->db->set('payment_status_chnaged_on',date('Y-m-d H:i:s'));
         
         $this->db->set('account_verification',$new_st);
         $this->db->where('id',$id);
